@@ -1,22 +1,49 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    /*font-family: "Roboto Flex", serif;*/
+    font-family: "Tinos", serif;
+}
+.logo-resize-small{
+    width:50px;
+    height:auto;
+}
+.image-container {
+    position: relative;
+    background-image: url('../Images/HomeBack.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height:98vh;
+}
+.image-container-sp {
+    position: relative;
+    background-image: url('../Images/SpecializationBackground.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.title-text {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.background-light-div {
+    /*background-color: #fffbf3;*/
+    background-color: #fffbf3;
+}
+.text-main {
+    color: #006A67;
+}
+.text-gradient {
+    /*color: #19647b;*/
+    background-image: linear-gradient(green, blue);
+    color: transparent;
+    background-clip: text;
+}
+.btn-style {
+    border-radius: 25px; /*
+    background-color: #006A67;*/
+    background: linear-gradient(to bottom right, #006A67, #00bfae);
+}
+.bg-main {
+    background-color: #006A67;
 }
