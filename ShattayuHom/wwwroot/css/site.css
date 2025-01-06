@@ -3,8 +3,11 @@ body {
     font-family: "Tinos", serif;
 }
 .logo-resize-small{
-    width:50px;
+    width:40px;
     height:auto;
+}
+.font-medium {
+    font-size: 1.2rem;
 }
 .image-container {
     position: relative;
@@ -20,10 +23,19 @@ body {
     background-position: center;
     height: 75vh;
 }
-
+.about-uc-bg {
+    background: linear-gradient(135deg, #d6b9a0, #f0e1d2, #c9b69d);
+}
 .title-text {
     font-size: 4rem;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.title-sm-text {
+    font-size: 3rem;
+}
+.navbar-bg-custom {
+            background-color: rgba(0, 0, 0, 0.6); /* Dark background with transparency */
+            backdrop-filter: blur(10px); /* Apply blur effect */
+            -webkit-backdrop-filter: blur(10px); /* For Safari support */
 }
 
 .background-light-div {
@@ -46,4 +58,21 @@ body {
 }
 .bg-main {
     background-color: #006A67;
+}
+.carosel-div{
+    height:75vh;
+    border: solid 2px;
+    border-radius:9px;
+ }
+
+.carosel-icons{
+    border: solid 2px;
+    border-radius:15px;
+    padding: 5px;
+    font-weight:400;
+}
+.outlined-text {
+    font-family: 'Roboto', sans-serif;
+    color: white; /* Text color */
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black; /* Simulated outline */
 }
